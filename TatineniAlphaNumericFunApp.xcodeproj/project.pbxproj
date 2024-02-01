@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C505CD82B6B2A250084E67B /* AnimatedGradientView in Frameworks */ = {isa = PBXBuildFile; productRef = 8C505CD72B6B2A250084E67B /* AnimatedGradientView */; };
+		8CA9AB4E2B697ED800499148 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9AB4D2B697ED800499148 /* AppDelegate.swift */; };
+		8CA9AB502B697ED800499148 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9AB4F2B697ED800499148 /* SceneDelegate.swift */; };
+		8CA9AB522B697ED800499148 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9AB512B697ED800499148 /* ViewController.swift */; };
+		8CA9AB552B697ED800499148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CA9AB532B697ED800499148 /* Main.storyboard */; };
+		8CA9AB572B697ED900499148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CA9AB562B697ED900499148 /* Assets.xcassets */; };
+		8CA9AB5A2B697ED900499148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CA9AB582B697ED900499148 /* LaunchScreen.storyboard */; };
+		8CA9AB7F2B6A3C8000499148 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 8CA9AB7E2B6A3C8000499148 /* Lottie */; };
+		8CA9AB812B6AE43D00499148 /* AlphaNumericFunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9AB802B6AE43D00499148 /* AlphaNumericFunVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8CA9AB4A2B697ED800499148 /* TatineniAlphaNumericFunApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TatineniAlphaNumericFunApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA9AB4D2B697ED800499148 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CA9AB4F2B697ED800499148 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8CA9AB512B697ED800499148 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CA9AB542B697ED800499148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CA9AB562B697ED900499148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CA9AB592B697ED900499148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CA9AB5B2B697ED900499148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CA9AB642B697ED900499148 /* TatineniAlphaNumericFunAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatineniAlphaNumericFunAppTests.swift; sourceTree = "<group>"; };
+		8CA9AB6E2B697ED900499148 /* TatineniAlphaNumericFunAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatineniAlphaNumericFunAppUITests.swift; sourceTree = "<group>"; };
+		8CA9AB702B697ED900499148 /* TatineniAlphaNumericFunAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatineniAlphaNumericFunAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CA9AB802B6AE43D00499148 /* AlphaNumericFunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaNumericFunVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CA9AB472B697ED800499148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C505CD82B6B2A250084E67B /* AnimatedGradientView in Frameworks */,
+				8CA9AB7F2B6A3C8000499148 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CA9AB412B697ED800499148 = {
+			isa = PBXGroup;
+			children = (
+				8CA9AB4C2B697ED800499148 /* TatineniAlphaNumericFunApp */,
+				8CA9AB632B697ED900499148 /* TatineniAlphaNumericFunAppTests */,
+				8CA9AB6D2B697ED900499148 /* TatineniAlphaNumericFunAppUITests */,
+				8CA9AB4B2B697ED800499148 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CA9AB4B2B697ED800499148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CA9AB4A2B697ED800499148 /* TatineniAlphaNumericFunApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CA9AB4C2B697ED800499148 /* TatineniAlphaNumericFunApp */ = {
+			isa = PBXGroup;
+			children = (
+				8CA9AB4D2B697ED800499148 /* AppDelegate.swift */,
+				8CA9AB4F2B697ED800499148 /* SceneDelegate.swift */,
+				8CA9AB512B697ED800499148 /* ViewController.swift */,
+				8CA9AB802B6AE43D00499148 /* AlphaNumericFunVC.swift */,
+				8CA9AB532B697ED800499148 /* Main.storyboard */,
+				8CA9AB562B697ED900499148 /* Assets.xcassets */,
+				8CA9AB582B697ED900499148 /* LaunchScreen.storyboard */,
+				8CA9AB5B2B697ED900499148 /* Info.plist */,
+			);
+			path = TatineniAlphaNumericFunApp;
+			sourceTree = "<group>";
+		};
+		8CA9AB632B697ED900499148 /* TatineniAlphaNumericFunAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CA9AB642B697ED900499148 /* TatineniAlphaNumericFunAppTests.swift */,
+			);
+			path = TatineniAlphaNumericFunAppTests;
+			sourceTree = "<group>";
+		};
+		8CA9AB6D2B697ED900499148 /* TatineniAlphaNumericFunAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CA9AB6E2B697ED900499148 /* TatineniAlphaNumericFunAppUITests.swift */,
+				8CA9AB702B697ED900499148 /* TatineniAlphaNumericFunAppUITestsLaunchTests.swift */,
+			);
+			path = TatineniAlphaNumericFunAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CA9AB492B697ED800499148 /* TatineniAlphaNumericFunApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CA9AB742B697ED900499148 /* Build configuration list for PBXNativeTarget "TatineniAlphaNumericFunApp" */;
+			buildPhases = (
+				8CA9AB462B697ED800499148 /* Sources */,
+				8CA9AB472B697ED800499148 /* Frameworks */,
+				8CA9AB482B697ED800499148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TatineniAlphaNumericFunApp;
+			packageProductDependencies = (
+				8CA9AB7E2B6A3C8000499148 /* Lottie */,
+				8C505CD72B6B2A250084E67B /* AnimatedGradientView */,
+			);
+			productName = TatineniAlphaNumericFunApp;
+			productReference = 8CA9AB4A2B697ED800499148 /* TatineniAlphaNumericFunApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CA9AB422B697ED800499148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8CA9AB492B697ED800499148 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 8CA9AB452B697ED800499148 /* Build configuration list for PBXProject "TatineniAlphaNumericFunApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CA9AB412B697ED800499148;
+			packageReferences = (
+				8CA9AB7D2B6A3C8000499148 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				8C505CD62B6B2A250084E67B /* XCRemoteSwiftPackageReference "AnimatedGradientView" */,
+			);
+			productRefGroup = 8CA9AB4B2B697ED800499148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CA9AB492B697ED800499148 /* TatineniAlphaNumericFunApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CA9AB482B697ED800499148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA9AB5A2B697ED900499148 /* LaunchScreen.storyboard in Resources */,
+				8CA9AB572B697ED900499148 /* Assets.xcassets in Resources */,
+				8CA9AB552B697ED800499148 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CA9AB462B697ED800499148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA9AB522B697ED800499148 /* ViewController.swift in Sources */,
+				8CA9AB4E2B697ED800499148 /* AppDelegate.swift in Sources */,
+				8CA9AB812B6AE43D00499148 /* AlphaNumericFunVC.swift in Sources */,
+				8CA9AB502B697ED800499148 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CA9AB532B697ED800499148 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CA9AB542B697ED800499148 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CA9AB582B697ED900499148 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CA9AB592B697ED900499148 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CA9AB722B697ED900499148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CA9AB732B697ED900499148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CA9AB752B697ED900499148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TatineniAlphaNumericFunApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.spring24.cs44643.sec02.TatineniAlphaNumericFunApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CA9AB762B697ED900499148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TatineniAlphaNumericFunApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.spring24.cs44643.sec02.TatineniAlphaNumericFunApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CA9AB452B697ED800499148 /* Build configuration list for PBXProject "TatineniAlphaNumericFunApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA9AB722B697ED900499148 /* Debug */,
+				8CA9AB732B697ED900499148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CA9AB742B697ED900499148 /* Build configuration list for PBXNativeTarget "TatineniAlphaNumericFunApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA9AB752B697ED900499148 /* Debug */,
+				8CA9AB762B697ED900499148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8C505CD62B6B2A250084E67B /* XCRemoteSwiftPackageReference "AnimatedGradientView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rwbutler/AnimatedGradientView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+		8CA9AB7D2B6A3C8000499148 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8C505CD72B6B2A250084E67B /* AnimatedGradientView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C505CD62B6B2A250084E67B /* XCRemoteSwiftPackageReference "AnimatedGradientView" */;
+			productName = AnimatedGradientView;
+		};
+		8CA9AB7E2B6A3C8000499148 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CA9AB7D2B6A3C8000499148 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8CA9AB422B697ED800499148 /* Project object */;
+}
